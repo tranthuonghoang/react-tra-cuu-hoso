@@ -1,8 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// base phải trùng tên repo GitHub Pages
+// PHẢI trùng tên repo
 export default defineConfig({
-  base: '/react-tra-cuu-hoso-ghpages/',
+  base: '/react-tra-cuu-hoso/',
   plugins: [react()],
 })
+
