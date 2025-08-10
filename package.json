@@ -1,8 +1,8 @@
 {
-  "name": "react-tra-cuu-hoso",
+  "name": "react-tra-cuu-hoso-ghpages",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://tranthuonghoang.github.io/react-tra-cuu-hoso",
+  "homepage": "https://tranthuonghoang.github.io/react-tra-cuu-hoso-ghpages",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,9 +11,13 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
-    "@vitejs/plugin-react": "^5.0.0",
+    "@vitejs/plugin-react": "^4.7.0",
     "gh-pages": "^6.3.0",
-    "vite": "^7.1.1"
+    "vite": "^5.4.19"
   }
 }
